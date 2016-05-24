@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorTitle">
+    <ImageButton
+        android:onClick="onClick"
+        android:padding="3dp"
+        android:id="@+id/ib_details_title_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorIB"
+        android:src="@drawable/navigation_back_seletor"
+        />
+    <TextView
+        android:padding="8dp"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:id="@+id/de_title"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
